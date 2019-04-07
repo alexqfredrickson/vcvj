@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+
+  <appSettings>
+    <!-- The general working directory for vcvj where .gif files are found. -->
+    <add key="WorkingDirectory" value="C:\users\example\desktop" />
+
+    <!-- The file name of the input .gif. -->
+    <add key="SourceImageFileName" value="example.gif" />
+
+    <!-- The file name of the output .gif. -->
+    <add key="DestinationImageFileName" value="example_new.gif" />
+  </appSettings>
+</configuration>

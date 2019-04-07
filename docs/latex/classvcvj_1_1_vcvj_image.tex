@@ -1,0 +1,188 @@
+\hypertarget{classvcvj_1_1_vcvj_image}{}\section{vcvj.\+Vcvj\+Image Class Reference}
+\label{classvcvj_1_1_vcvj_image}\index{vcvj.\+Vcvj\+Image@{vcvj.\+Vcvj\+Image}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classvcvj_1_1_vcvj_image_a8dfb7a8003fb52fe79c68fab3bfa4dec}{Compile\+Byte\+Array} ()
+\begin{DoxyCompactList}\small\item\em Compiles the parsed tokens/components back into a byte array. \end{DoxyCompactList}\item 
+void \hyperlink{classvcvj_1_1_vcvj_image_a9f88afceee83616e2e151ebc2029517a}{Save} (string suffix=\char`\"{}\char`\"{}, bool overwrite\+Existing\+Image=false)
+\begin{DoxyCompactList}\small\item\em Saves the image to the source image folder, using the name of the original source image and an optional suffix to append to the output file. \end{DoxyCompactList}\item 
+void \hyperlink{classvcvj_1_1_vcvj_image_a692bb3dc3559a89e866eacc78cb11c6d}{Save\+To\+Path} (string filepath, bool overwrite\+Existing\+Image=false)
+\begin{DoxyCompactList}\small\item\em Saves the image to a fully qualified path. \end{DoxyCompactList}\item 
+void \hyperlink{classvcvj_1_1_vcvj_image_a3672c362bd1e1422d7f2eae41e58bb2a}{Compile\+And\+Save} (string suffix=\char`\"{}\char`\"{}, bool overwrite\+Existing\+Image=false)
+\begin{DoxyCompactList}\small\item\em Compiles the data stream and saves the image to the input folder with a new file name. \end{DoxyCompactList}\item 
+void \hyperlink{classvcvj_1_1_vcvj_image_a92d372f81cb9dceb2d644f6f13c1d5bc}{Compile\+And\+Save\+To\+Path} (string file\+Path, bool overwrite\+Existing\+Image=false)
+\begin{DoxyCompactList}\small\item\em Compiles the data stream and saves the image to a fully qualified path. \end{DoxyCompactList}\item 
+\hyperlink{classvcvj_1_1_vcvj_image_a5d9a5ea2928dd78e3c1899dc6a83732a}{Vcvj\+Image} (string input\+File\+Path)
+\begin{DoxyCompactList}\small\item\em Creates a new Vc\+Vj\+Image object from a G\+IF image located at the specified file path. \end{DoxyCompactList}\item 
+\hyperlink{classvcvj_1_1_vcvj_image_afdfa6f404bed3a3c0a0c9a16060206f8}{Vcvj\+Image} (string folder\+Name, string file\+Name)
+\begin{DoxyCompactList}\small\item\em Creates a new Vc\+Vj\+Image object from a G\+IF image located at the specified folder with the specified file name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{classvcvj_1_1_vcvj_image_a2a21889ea8a2dac7832e69b224e47732}{Input\+Folder\+Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The name of the folder that the source image is located in. \end{DoxyCompactList}\item 
+string \hyperlink{classvcvj_1_1_vcvj_image_a34afafb554b739cd21a3ad8b71007462}{Input\+File\+Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The name of the source image file (excluding extension). \end{DoxyCompactList}\item 
+string {\bfseries Input\+File\+Path}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}\hypertarget{classvcvj_1_1_vcvj_image_adba0cc00bee473c2737a0a8de9ef10ec}{}\label{classvcvj_1_1_vcvj_image_adba0cc00bee473c2737a0a8de9ef10ec}
+
+\item 
+\hyperlink{classvcvj_1_1_models_1_1_grammatical___components_1_1_data_stream}{Data\+Stream} \hyperlink{classvcvj_1_1_vcvj_image_af7be319d59a08f70d624631d8f1bccbd}{Data\+Stream}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Represents the tokenized G\+IF image\textquotesingle{}s constituent tokens. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Vcvj\+Image@{Vcvj\+Image}}
+\index{Vcvj\+Image@{Vcvj\+Image}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Vcvj\+Image(string input\+File\+Path)}{VcvjImage(string inputFilePath)}}]{\setlength{\rightskip}{0pt plus 5cm}vcvj.\+Vcvj\+Image.\+Vcvj\+Image (
+\begin{DoxyParamCaption}
+\item[{string}]{input\+File\+Path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvcvj_1_1_vcvj_image_a5d9a5ea2928dd78e3c1899dc6a83732a}{}\label{classvcvj_1_1_vcvj_image_a5d9a5ea2928dd78e3c1899dc6a83732a}
+
+
+Creates a new Vc\+Vj\+Image object from a G\+IF image located at the specified file path. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & The fully qualified path to the file.\\
+\hline
+\end{DoxyParams}
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Vcvj\+Image@{Vcvj\+Image}}
+\index{Vcvj\+Image@{Vcvj\+Image}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Vcvj\+Image(string folder\+Name, string file\+Name)}{VcvjImage(string folderName, string fileName)}}]{\setlength{\rightskip}{0pt plus 5cm}vcvj.\+Vcvj\+Image.\+Vcvj\+Image (
+\begin{DoxyParamCaption}
+\item[{string}]{folder\+Name, }
+\item[{string}]{file\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvcvj_1_1_vcvj_image_afdfa6f404bed3a3c0a0c9a16060206f8}{}\label{classvcvj_1_1_vcvj_image_afdfa6f404bed3a3c0a0c9a16060206f8}
+
+
+Creates a new Vc\+Vj\+Image object from a G\+IF image located at the specified folder with the specified file name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em folder\+Name} & The folder containing the G\+IF file (including trailing backslash, e.\+g. \textquotesingle{}C\+:\textbackslash{}\textquotesingle{}).\\
+\hline
+{\em file\+Name} & The name of the G\+IF file (including the extension, e.\+g. \textquotesingle{}Balloons.\+gif\textquotesingle{}).\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Compile\+And\+Save@{Compile\+And\+Save}}
+\index{Compile\+And\+Save@{Compile\+And\+Save}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Compile\+And\+Save(string suffix="""", bool overwrite\+Existing\+Image=false)}{CompileAndSave(string suffix="", bool overwriteExistingImage=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void vcvj.\+Vcvj\+Image.\+Compile\+And\+Save (
+\begin{DoxyParamCaption}
+\item[{string}]{suffix = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{bool}]{overwrite\+Existing\+Image = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvcvj_1_1_vcvj_image_a3672c362bd1e1422d7f2eae41e58bb2a}{}\label{classvcvj_1_1_vcvj_image_a3672c362bd1e1422d7f2eae41e58bb2a}
+
+
+Compiles the data stream and saves the image to the input folder with a new file name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em overwrite\+Existing\+Image} & Overwrites the existing image located at the new file path (default == false).\\
+\hline
+{\em suffix} & An optional suffix to append to the end of the new file name (e.\+g. \textquotesingle{} -\/ modified\textquotesingle{}).\\
+\hline
+\end{DoxyParams}
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Compile\+And\+Save\+To\+Path@{Compile\+And\+Save\+To\+Path}}
+\index{Compile\+And\+Save\+To\+Path@{Compile\+And\+Save\+To\+Path}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Compile\+And\+Save\+To\+Path(string file\+Path, bool overwrite\+Existing\+Image=false)}{CompileAndSaveToPath(string filePath, bool overwriteExistingImage=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void vcvj.\+Vcvj\+Image.\+Compile\+And\+Save\+To\+Path (
+\begin{DoxyParamCaption}
+\item[{string}]{file\+Path, }
+\item[{bool}]{overwrite\+Existing\+Image = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvcvj_1_1_vcvj_image_a92d372f81cb9dceb2d644f6f13c1d5bc}{}\label{classvcvj_1_1_vcvj_image_a92d372f81cb9dceb2d644f6f13c1d5bc}
+
+
+Compiles the data stream and saves the image to a fully qualified path. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em overwrite\+Existing\+Image} & Overwrites the existing image located at the new file path (default == false).\\
+\hline
+{\em file\+Path} & The fully qualified path to the new file (e.\+g. \textquotesingle{}C\+:.gif\textquotesingle{}).\\
+\hline
+\end{DoxyParams}
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Compile\+Byte\+Array@{Compile\+Byte\+Array}}
+\index{Compile\+Byte\+Array@{Compile\+Byte\+Array}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Compile\+Byte\+Array()}{CompileByteArray()}}]{\setlength{\rightskip}{0pt plus 5cm}void vcvj.\+Vcvj\+Image.\+Compile\+Byte\+Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvcvj_1_1_vcvj_image_a8dfb7a8003fb52fe79c68fab3bfa4dec}{}\label{classvcvj_1_1_vcvj_image_a8dfb7a8003fb52fe79c68fab3bfa4dec}
+
+
+Compiles the parsed tokens/components back into a byte array. 
+
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Save@{Save}}
+\index{Save@{Save}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Save(string suffix="""", bool overwrite\+Existing\+Image=false)}{Save(string suffix="", bool overwriteExistingImage=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void vcvj.\+Vcvj\+Image.\+Save (
+\begin{DoxyParamCaption}
+\item[{string}]{suffix = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{bool}]{overwrite\+Existing\+Image = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvcvj_1_1_vcvj_image_a9f88afceee83616e2e151ebc2029517a}{}\label{classvcvj_1_1_vcvj_image_a9f88afceee83616e2e151ebc2029517a}
+
+
+Saves the image to the source image folder, using the name of the original source image and an optional suffix to append to the output file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em suffix} & An optional suffix to append to the end of the new file name (e.\+g. \textquotesingle{} -\/ modified\textquotesingle{}).\\
+\hline
+{\em overwrite\+Existing\+Image} & Overwrites the existing image located at the new file path (default == false).\\
+\hline
+\end{DoxyParams}
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Save\+To\+Path@{Save\+To\+Path}}
+\index{Save\+To\+Path@{Save\+To\+Path}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Save\+To\+Path(string filepath, bool overwrite\+Existing\+Image=false)}{SaveToPath(string filepath, bool overwriteExistingImage=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void vcvj.\+Vcvj\+Image.\+Save\+To\+Path (
+\begin{DoxyParamCaption}
+\item[{string}]{filepath, }
+\item[{bool}]{overwrite\+Existing\+Image = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvcvj_1_1_vcvj_image_a692bb3dc3559a89e866eacc78cb11c6d}{}\label{classvcvj_1_1_vcvj_image_a692bb3dc3559a89e866eacc78cb11c6d}
+
+
+Saves the image to a fully qualified path. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filepath} & The fully qualified path to the new file (e.\+g. \textquotesingle{}C\+:.gif\textquotesingle{}).\\
+\hline
+{\em overwrite\+Existing\+Image} & Overwrites the existing image located at the new file path (default == false).\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Data\+Stream@{Data\+Stream}}
+\index{Data\+Stream@{Data\+Stream}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Data\+Stream}{DataStream}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Data\+Stream} vcvj.\+Vcvj\+Image.\+Data\+Stream\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{classvcvj_1_1_vcvj_image_af7be319d59a08f70d624631d8f1bccbd}{}\label{classvcvj_1_1_vcvj_image_af7be319d59a08f70d624631d8f1bccbd}
+
+
+Represents the tokenized G\+IF image\textquotesingle{}s constituent tokens. 
+
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Input\+File\+Name@{Input\+File\+Name}}
+\index{Input\+File\+Name@{Input\+File\+Name}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Input\+File\+Name}{InputFileName}}]{\setlength{\rightskip}{0pt plus 5cm}string vcvj.\+Vcvj\+Image.\+Input\+File\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{classvcvj_1_1_vcvj_image_a34afafb554b739cd21a3ad8b71007462}{}\label{classvcvj_1_1_vcvj_image_a34afafb554b739cd21a3ad8b71007462}
+
+
+The name of the source image file (excluding extension). 
+
+\index{vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}!Input\+Folder\+Name@{Input\+Folder\+Name}}
+\index{Input\+Folder\+Name@{Input\+Folder\+Name}!vcvj\+::\+Vcvj\+Image@{vcvj\+::\+Vcvj\+Image}}
+\subsubsection[{\texorpdfstring{Input\+Folder\+Name}{InputFolderName}}]{\setlength{\rightskip}{0pt plus 5cm}string vcvj.\+Vcvj\+Image.\+Input\+Folder\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{classvcvj_1_1_vcvj_image_a2a21889ea8a2dac7832e69b224e47732}{}\label{classvcvj_1_1_vcvj_image_a2a21889ea8a2dac7832e69b224e47732}
+
+
+The name of the folder that the source image is located in. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+vcvj/Vcvj\+Image.\+cs\end{DoxyCompactItemize}
