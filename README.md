@@ -2,7 +2,7 @@
 ![Screenshot](demo/demo%20-%20shuffled.gif)
 
 ## A brief introduction
-**vcvj** is an open-source, GPL-licensed framework for tokenization and transformation of GIF files.
+**vcvj** is a .NET 8.0 (C#) framework for tokenizing and transforming GIF files.
 
 ### *Tokenization*
 
