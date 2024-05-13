@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Linq;
-using vcvj.Models;
+﻿using vcvj.Models;
 using vcvj.Models.Grammatical_Subcomponents;
 
 namespace vcvj.Tests

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
-
-namespace vcvj.Models.Grammatical_Subcomponents
+﻿namespace vcvj.Models.Grammatical_Subcomponents
 {
     public class ImageData
     {

@@ -1,13 +1,5 @@
-﻿using LzwTools;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LzwGifTools;
 using vcvj.Models;
-using vcvj.Models.Grammatical_Subcomponents;
 
 namespace vcvj.Tests
 {
@@ -36,8 +28,8 @@ namespace vcvj.Tests
             byte[] imageData = vcvj.DataStream.GetTableBasedImages().First().ImageData.Bytes;
             int lzwSize = vcvj.DataStream.GetTableBasedImages().First().ImageData.LzwMinimumCodeSize;
 
-            LzwDecompressor decompressor = new LzwDecompressor((byte)lzwSize);
-            LzwTools.Decoder decoder = new LzwTools.Decoder((byte)lzwSize);
+            LzwDecompressor decompressor = new((byte)lzwSize);
+            Decoder decoder = new((byte)lzwSize);
 
             List<int> decompressedStream = decompressor.Decompress(imageData.Select((b) => (int)b).ToList<int>());
             List<int> decodedStream = decoder.Decode(decompressedStream.Select(x => (byte)x).ToList<byte>());

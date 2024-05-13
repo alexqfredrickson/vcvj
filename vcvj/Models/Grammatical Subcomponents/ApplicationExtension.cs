@@ -1,7 +1,6 @@
 ﻿using System.Text;
-using vcvj.Models.Grammatical_Components;
-using System.Linq;
 using vcvj.Models.Enums;
+using vcvj.Models.Grammatical_Components;
 
 namespace vcvj.Models.Grammatical_Subcomponents
 {

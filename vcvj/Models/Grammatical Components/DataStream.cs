@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using vcvj.Models.Grammatical_Subcomponents;
+﻿using vcvj.Models.Grammatical_Subcomponents;
 
 namespace vcvj.Models.Grammatical_Components
 {

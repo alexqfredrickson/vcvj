@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.IO;
-using vcvj.Models.Grammatical_Components;
+﻿using vcvj.Models.Grammatical_Components;
 using vcvj.Models.Grammatical_Subcomponents;
 using vcvj.Parsers;
+using System.Drawing;
+using System.Drawing.Imaging;
 
 namespace vcvj.Models
 {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace vcvj.Exceptions
+﻿namespace vcvj.Exceptions
 {
     public class ApplicationExtensionParserException : Exception
     {

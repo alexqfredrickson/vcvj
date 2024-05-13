@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using vcvj.Models.Enums;
+﻿using vcvj.Models.Enums;
 using vcvj.Models.Grammatical_Subcomponents;
 
 namespace vcvj.Parsers

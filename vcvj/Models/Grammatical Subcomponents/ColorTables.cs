@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-
-namespace vcvj.Models.Grammatical_Subcomponents
+﻿namespace vcvj.Models.Grammatical_Subcomponents
 {
     /// <summary>
     /// A block containing information about colors used. Can be global or local (frame-specific).
