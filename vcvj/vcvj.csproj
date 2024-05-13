@@ -10,4 +10,10 @@
     <PackageReference Include="System.Drawing.Common" Version="8.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="LzwGifTools">
+      <HintPath>..\vcvj.Tests\References\LzwGifTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

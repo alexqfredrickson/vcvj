@@ -24,6 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="LzwGifTools">
+      <HintPath>References\LzwGifTools.dll</HintPath>
+    </Reference>
     <Reference Include="LzwTools">
       <HintPath>References\LzwTools.dll</HintPath>
     </Reference>
